@@ -15,5 +15,5 @@ Pre-requisits is to have Llama model locally downloaded form Ollama along with a
 - llama3.2
 - mxbai-embed-large
  
-* After initializing for vector database (ChromaDB) a new folder will be made [chrome_langchian_db] for logs and locally making documents of the csv files to be passed onto the model
+ After initializing for vector database (ChromaDB) a new folder will be made [chrome_langchian_db] for logs and locally making documents of the csv files to be passed onto the model
 
