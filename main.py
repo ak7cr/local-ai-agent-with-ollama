@@ -10,6 +10,8 @@ You are an exeprt in answering questions about a pizza restaurant
 Here are some relevant reviews: {reviews}
 
 Here is the question to answer: {question}
+
+While answering, please do not include id="" in the answer.
 """
 prompt = ChatPromptTemplate.from_template(template)
 chain = prompt | model
